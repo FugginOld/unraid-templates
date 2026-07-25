@@ -1,0 +1,15 @@
+<CommunityApplications>
+  <!-- Required profile.  Markdown supported -->
+  <Profile>
+    Docker application templates maintained by Fuggin.
+    Report issues on the GitHub repository.
+  </Profile>
+  <Icon>https://avatars.githubusercontent.com/u/121835359?v=4</Icon>
+  <WebPage>https://github.com/FugginOld/unraid-templates</WebPage>
+  <!-- Optional: uncomment and fill in once you have them
+  <Forum>https://forums.unraid.net/topic/YOUR_SUPPORT_TOPIC</Forum>
+  <Discord>https://discord.gg/YOUR_INVITE_CODE</Discord>
+  <DonateLink>https://github.com/sponsors/FugginOld</DonateLink>
+  <DonateText>Support this project</DonateText>
+  -->
+</CommunityApplications>
