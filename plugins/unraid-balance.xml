@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Plugin>
+  <Name>Array Rebalance</Name>
+
+  <Overview>
+Rebalance your array after large data moves. Moves data between array disks so every
+data disk ends up filled to the same percentage of its capacity: a 14 TB disk holds
+proportionally more than a 10 TB disk.
+
+Builds a plan first (dry run), then moves whole folders disk-to-disk with rsync, keeping
+their paths so user shares are unchanged. Honors each share's included/excluded disks,
+never touches cache or pools, and keeps parity valid throughout. Pauses for parity checks
+and the mover, and skips items that have open files, were written recently, contain
+in-progress downloads or are hardlinked elsewhere (e.g. torrent/media links).
+
+Live dashboard under Settings, User Utilities: overall progress, the current move with
+speed and ETA, each disk against its target, the queue, recent moves and the log, with
+pause, stop and abort controls.
+  </Overview>
+
+  <PluginURL>https://raw.githubusercontent.com/FugginOld/Unraid-Rebalance/main/rebalance.plg</PluginURL>
+  <PluginAuthor>FugginOld</PluginAuthor>
+
+  <Support>https://github.com/FugginOld/Unraid-Rebalance/issues</Support>
+  <Project>https://github.com/FugginOld/Unraid-Rebalance</Project>
+  <ReadMe>https://raw.githubusercontent.com/FugginOld/Unraid-Rebalance/main/README.md</ReadMe>
+
+  <Category>Tools:System</Category>
+  <Beta>true</Beta>
+  <License>MIT</License>
+
+  <Icon>https://raw.githubusercontent.com/FugginOld/Unraid-Rebalance/main/icon.png</Icon>
+</Plugin>
