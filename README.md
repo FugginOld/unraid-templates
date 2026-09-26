@@ -14,6 +14,7 @@ Unraid Community Applications template repository for [@FugginOld](https://githu
 
 - `templates/topographer.xml` — [topographer](https://github.com/FugginOld/topographer)
 - `plugins/hbaviewer.xml` — [Unraid-HBAviewer](https://github.com/FugginOld/Unraid-HBAviewer)
+- `plugins/unraid-balance.xml` — [Unraid-Rebalance](https://github.com/FugginOld/Unraid-Rebalance)
 
 ## Adding an app
 
